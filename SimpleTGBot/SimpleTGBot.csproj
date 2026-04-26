@@ -11,4 +11,10 @@
       <PackageReference Include="Telegram.Bot" Version="19.0.0-preview.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="RPG.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
